@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 
-#newstuff
+#newstuff SamAshray1/Virtual-Paint-Canvas SamAshray1/Virtual-Paint-Canvas
 def empty(a):
     pass
-
+#mewo meow
 
 
 ## Colour Detection using trackbars
