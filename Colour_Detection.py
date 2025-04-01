@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-
-def empty():
+#newstuff
+def empty(a):
     pass
 
 
