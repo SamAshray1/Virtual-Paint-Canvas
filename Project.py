@@ -13,7 +13,7 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 640)  # Width
 cap.set(4, 480)  # Height
 
-# Create trackbars for HSV range adjustments
+#  trackbars for HSV range adjustments
 cv2.namedWindow("TrackBars")
 cv2.resizeWindow("TrackBars", 640, 300)
 cv2.createTrackbar("Hue Min", "TrackBars", 0, 179, empty)
@@ -33,7 +33,7 @@ while True:
     imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)   # For Image
     frameHSV = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)  # For Webcam
 
-    # Get trackbar positions
+    # trackbar positions
     h_min = cv2.getTrackbarPos("Hue Min", "TrackBars")
     h_max = cv2.getTrackbarPos("Hue Max", "TrackBars")
     s_min = cv2.getTrackbarPos("Sat Min", "TrackBars")
