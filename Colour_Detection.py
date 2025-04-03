@@ -5,11 +5,10 @@ import numpy as np
 def empty():
     pass
 
-
 ## Colour Detection using trackbars
-path = r'C:\Users\konal\Desktop\Capture.png'
+path = "Capture.png"
 img = cv2.imread(path)
-img = img[200:400, 200:500 ]
+
 
 cv2.namedWindow("TrackBars")
 cv2.resizeWindow("TrackBars", 640, 300)
@@ -39,3 +38,5 @@ while True:
     cv2.imshow("ImgM", mask)
     cv2.imshow("ImgR", imgResult)
     cv2.waitKey(1)
+
+
